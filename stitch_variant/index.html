@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dame Clic | Agencia de Marketing Digital en Costa Rica</title>
+<!-- Google Fonts: Plus Jakarta Sans & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary-fixed": "#cce5ff",
+            "surface-container-lowest": "#ffffff",
+            "error-container": "#ffdad6",
+            "inverse-primary": "#c2c5e0",
+            "surface-container-low": "#f2f3ff",
+            "error": "#ba1a1a",
+            "secondary": "#00677f",
+            "on-error-container": "#93000a",
+            "on-background": "#131b2e",
+            "outline": "#77767d",
+            "on-secondary-fixed-variant": "#004e60",
+            "secondary-container": "#00d2ff",
+            "surface-dim": "#d2d9f4",
+            "surface-bright": "#faf8ff",
+            "on-primary-container": "#7f829b",
+            "outline-variant": "#c7c5cd",
+            "on-primary-fixed-variant": "#42455c",
+            "on-secondary-container": "#00566a",
+            "surface-variant": "#dae2fd",
+            "on-tertiary-fixed": "#001d31",
+            "on-primary-fixed": "#161a2e",
+            "primary-fixed": "#dee1fd",
+            "on-primary": "#ffffff",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed-variant": "#004b73",
+            "tertiary-container": "#001d31",
+            "secondary-fixed": "#b6ebff",
+            "inverse-on-surface": "#eef0ff",
+            "on-secondary-fixed": "#001f28",
+            "primary-container": "#161a2e",
+            "on-surface-variant": "#46464d",
+            "on-tertiary": "#ffffff",
+            "surface-container-highest": "#dae2fd",
+            "surface-container-high": "#e2e7ff",
+            "on-surface": "#131b2e",
+            "background": "#faf8ff",
+            "tertiary": "#000000",
+            "secondary-fixed-dim": "#47d6ff",
+            "surface": "#faf8ff",
+            "tertiary-fixed-dim": "#93ccff",
+            "surface-tint": "#595d75",
+            "on-error": "#ffffff",
+            "primary": "#000000",
+            "on-tertiary-container": "#188ace",
+            "primary-fixed-dim": "#c2c5e0",
+            "inverse-surface": "#283044",
+            "surface-container": "#eaedff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin": "1rem",
+            "gutter": "1.5rem",
+            "space-md": "1rem",
+            "margin-tablet": "2rem",
+            "space-sm": "0.5rem",
+            "margin-desktop": "4rem",
+            "space-xs": "0.25rem",
+            "space-xl": "2.5rem",
+            "gutter-desktop": "2rem",
+            "space-lg": "1.5rem"
+          },
+          "fontFamily": {
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "body-sm": ["Inter"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Inter"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Inter"],
+            "display": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "body-lg": ["Inter"],
+            "label-sm": ["Inter"],
+            "display-mobile": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "headline-lg-mobile": ["1.75rem", { lineHeight: "2.25rem", letterSpacing: "-0.015em", fontWeight: "700" }],
+            "body-sm": ["0.875rem", { lineHeight: "1.25rem", fontWeight: "400" }],
+            "headline-sm": ["1.25rem", { lineHeight: "1.75rem", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "label-md": ["0.875rem", { lineHeight: "1.25rem", letterSpacing: "0.02em", fontWeight: "600" }],
+            "headline-lg": ["2.5rem", { lineHeight: "3rem", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "body-md": ["1rem", { lineHeight: "1.5rem", fontWeight: "400" }],
+            "display": ["3.5rem", { lineHeight: "4rem", letterSpacing: "-0.03em", fontWeight: "800" }],
+            "headline-md": ["1.75rem", { lineHeight: "2.25rem", letterSpacing: "-0.015em", fontWeight: "600" }],
+            "body-lg": ["1.125rem", { lineHeight: "1.75rem", fontWeight: "400" }],
+            "label-sm": ["0.75rem", { lineHeight: "1rem", letterSpacing: "0.06em", fontWeight: "700" }],
+            "display-mobile": ["2.25rem", { lineHeight: "2.75rem", letterSpacing: "-0.02em", fontWeight: "800" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .glass-card {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(19, 27, 46, 0.08);
+    }
+    .cyan-glow {
+      box-shadow: 0 8px 24px -2px rgba(0, 210, 255, 0.35), 0 0 48px rgba(0, 210, 255, 0.15);
+    }
+    .cyan-glow-subtle {
+      box-shadow: 0 4px 20px -2px rgba(0, 210, 255, 0.18);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased overflow-x-hidden selection:bg-secondary-container selection:text-primary-container">
+<!-- Top Announcement Bar -->
+<aside aria-label="Información y Contacto Rápido" class="bg-primary-container text-surface-bright py-2 px-4 border-b border-outline-variant/10 text-body-sm font-body-sm relative z-50">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+<div class="flex flex-wrap items-center gap-4 text-xs text-on-primary-container">
+<span class="flex items-center gap-1.5 hover:text-secondary-fixed transition-colors">
+<span class="material-symbols-outlined text-[16px] text-secondary-container" data-icon="call">call</span>
+          +506 2201-8282
+        </span>
+<span class="hidden sm:inline text-outline-variant/40">•</span>
+<span class="flex items-center gap-1.5 hover:text-secondary-fixed transition-colors">
+<span class="material-symbols-outlined text-[16px] text-secondary-container" data-icon="pin_drop">pin_drop</span>
+          Plaza Trigueros, Pinares, Curridabat | San José, Costa Rica
+        </span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-secondary-container/10 border border-secondary-container/30 text-secondary-fixed-dim text-xs font-medium">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+          Disponibilidad para nuevos proyectos Q2 2024
+        </span>
+</div>
+</div>
+</aside>
+<!-- Sticky TopNavBar (From Shared Component JSON) -->
+<header class="bg-surface-container-lowest/80 dark:bg-primary-container/80 backdrop-blur-md text-on-surface dark:text-inverse-on-surface docked full-width top-0 sticky z-50 border-b border-outline-variant/30 dark:border-outline/20 shadow-sm dark:shadow-none">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop flex justify-between items-center h-20">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center border border-secondary-container/40 group-hover:border-secondary-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-2xl group-hover:scale-110 transition-transform duration-200" data-icon="ads_click" data-weight="fill" style="font-variation-settings: 'FILL' 1;">ads_click</span>
+</div>
+<span class="text-headline-md font-headline-md font-extrabold tracking-tight text-on-surface dark:text-surface-bright">Dame Clic</span>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-7 text-label-md font-label-md">
+<!-- Active Nav: Inicio (Homepage intent) -->
+<a class="text-secondary dark:text-secondary-fixed-dim font-bold border-b-2 border-secondary dark:border-secondary-fixed-dim pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200" href="#inicio">Inicio</a>
+<a class="text-on-surface-variant dark:text-inverse-primary pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200" href="#nosotros">Nosotros</a>
+<!-- Interactive Services Dropdown Trigger -->
+<div class="relative group py-2">
+<button class="flex items-center gap-1 text-on-surface-variant dark:text-inverse-primary pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200">
+<span>Servicios</span>
+<span class="material-symbols-outlined text-base group-hover:rotate-180 transition-transform duration-200" data-icon="expand_more">expand_more</span>
+</button>
+<!-- Mega Menu Panel -->
+<div class="absolute left-1/2 -translate-x-1/2 top-full w-[640px] p-4 bg-surface-container-lowest rounded-xl shadow-xl border border-outline-variant/30 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 grid grid-cols-2 gap-3 z-50">
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="shopping_cart">shopping_cart</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface flex items-center gap-1.5">Tienda en línea <span class="text-[10px] bg-secondary-container/20 text-secondary px-1.5 py-0.5 rounded font-bold">SINPE</span></p>
+<p class="text-xs text-outline leading-tight">WooCommerce, Shopify y pagos locales integrados.</p>
+</div>
+</a>
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="trending_up">trending_up</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface">Marketing Digital</p>
+<p class="text-xs text-outline leading-tight">Google Ads, Meta Ads y embudos de alta conversión.</p>
+</div>
+</a>
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="laptop_chromebook">laptop_chromebook</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface">Páginas Web</p>
+<p class="text-xs text-outline leading-tight">Diseño a medida, ultrarrápidas y optimizadas para SEO.</p>
+</div>
+</a>
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="monitoring">monitoring</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface">Analítica Web</p>
+<p class="text-xs text-outline leading-tight">Google Analytics 4, Tag Manager y métricas de ROI.</p>
+</div>
+</a>
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="palette">palette</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface">Diseño Gráfico</p>
+<p class="text-xs text-outline leading-tight">Identidad visual de marca, interfaces UI/UX y branding.</p>
+</div>
+</a>
+<a class="flex gap-3 p-3 rounded-lg hover:bg-surface-container-low transition-colors" href="#servicios">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl" data-icon="dns">dns</span>
+</div>
+<div>
+<p class="text-body-sm font-semibold text-on-surface">Dominio SSL y Hospedaje</p>
+<p class="text-xs text-outline leading-tight">Servidores seguros en la nube y soporte 24/7 en Costa Rica.</p>
+</div>
+</a>
+</div>
+</div>
+<a class="text-on-surface-variant dark:text-inverse-primary pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200" href="#portafolio">Portafolio</a>
+<a class="text-on-surface-variant dark:text-inverse-primary pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200" href="#blog">Blog</a>
+<a class="text-on-surface-variant dark:text-inverse-primary pb-1 hover:text-secondary dark:hover:text-secondary-container transition-colors duration-200" href="#contacto">Contáctenos</a>
+</nav>
+<!-- Trailing Action Button -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-primary-container text-surface-bright border border-secondary-container/30 hover:border-secondary-container text-label-md font-label-md transition-all duration-200 hover:shadow-[0_0_20px_rgba(0,210,255,0.3)] active:scale-98" href="#contacto">
+          Cotizar Proyecto
+        </a>
+<button aria-label="Abrir menú" class="md:hidden p-2 text-on-surface focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined text-2xl" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Drawer Dropdown -->
+<div class="hidden md:hidden bg-surface-container-lowest border-b border-outline-variant/30 px-margin py-4" id="mobile-menu">
+<div class="flex flex-col gap-3 font-label-md">
+<a class="text-secondary font-bold py-1" href="#inicio">Inicio</a>
+<a class="text-on-surface py-1" href="#nosotros">Nosotros</a>
+<a class="text-on-surface py-1" href="#servicios">Servicios</a>
+<a class="text-on-surface py-1" href="#portafolio">Portafolio</a>
+<a class="text-on-surface py-1" href="#blog">Blog</a>
+<a class="text-on-surface py-1" href="#contacto">Contáctenos</a>
+<a class="mt-2 text-center py-2.5 bg-primary-container text-surface-bright rounded-lg font-bold" href="#contacto">Cotizar Proyecto</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative pt-12 pb-20 lg:py-24 overflow-hidden bg-gradient-to-b from-surface-container-lowest via-surface-container-low/40 to-background" id="inicio">
+<!-- Atmospheric Micro-Glow Accents -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-secondary-container/10 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="absolute top-1/3 -right-20 w-96 h-96 bg-secondary/5 blur-[100px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Column: Copy & Actions -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<!-- Tag / Pill -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary-container/10 border border-secondary-container/30 text-secondary text-label-sm font-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+            🇨🇷 AGENCIA DE MARKETING DIGITAL EN COSTA RICA
+          </div>
+<h1 class="text-display-mobile lg:text-display font-display text-on-surface leading-tight tracking-tight">
+            Generamos <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-secondary to-secondary-container">clientes potenciales</span> y tráfico para su negocio.
+          </h1>
+<p class="text-body-md lg:text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
+            Optimizamos su presencia digital con estrategias integrales de SEO, campañas publicitarias de alto retorno, desarrollo web ultra-rápido y comercio electrónico a la medida de su mercado.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-gradient-to-r from-secondary-container to-secondary text-primary-container font-headline-sm text-label-md font-bold shadow-lg cyan-glow hover:brightness-105 transition-all" href="#contacto">
+<span>Solicitar Propuesta Gratuita</span>
+<span class="material-symbols-outlined text-lg" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface font-label-md font-semibold hover:bg-surface-container-low transition-all" href="#portafolio">
+<span>Explorar Portafolio</span>
+<span class="material-symbols-outlined text-lg text-secondary" data-icon="visibility">visibility</span>
+</a>
+</div>
+<!-- Trust Validation Metrics Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 w-full pt-8 border-t border-outline-variant/20 mt-4">
+<div>
+<p class="text-headline-md font-headline-md font-extrabold text-on-surface">+12 Años</p>
+<p class="text-label-sm font-label-sm uppercase text-outline">De Experiencia</p>
+</div>
+<div>
+<p class="text-headline-md font-headline-md font-extrabold text-on-surface">+350</p>
+<p class="text-label-sm font-label-sm uppercase text-outline">Clientes Felices</p>
+</div>
+<div>
+<p class="text-headline-md font-headline-md font-extrabold text-on-surface">+$4.8M</p>
+<p class="text-label-sm font-label-sm uppercase text-outline">Ventas Generadas</p>
+</div>
+<div>
+<p class="text-headline-md font-headline-md font-extrabold text-on-surface">98%</p>
+<p class="text-label-sm font-label-sm uppercase text-outline">Tasa Retención</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Digital Command Center Dashboard Visual -->
+<div class="lg:col-span-5 relative">
+<!-- Outer Glassmorphism Card Frame -->
+<div class="glass-card rounded-2xl p-6 shadow-2xl relative overflow-hidden border border-outline-variant/40">
+<div class="flex items-center justify-between pb-4 border-b border-outline-variant/20">
+<div class="flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-amber-400"></span>
+<span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+<span class="ml-2 text-xs font-mono font-medium text-outline">dameclic-analytics-engine.cr</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-secondary-container/15 text-secondary">EN VIVO</span>
+</div>
+<!-- Dashboard Simulated Metrics -->
+<div class="py-5 space-y-5">
+<div class="flex items-end justify-between">
+<div>
+<span class="text-label-sm font-label-sm text-outline uppercase tracking-wider">Conversión de Tráfico</span>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="text-headline-lg font-headline-lg font-extrabold text-primary-container">482.4%</span>
+<span class="inline-flex items-center text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-xs" data-icon="north_east">north_east</span> +32.4%
+                    </span>
+</div>
+</div>
+<div class="text-right">
+<span class="text-xs text-outline">Inversión Ads optimizada</span>
+<p class="font-bold text-on-surface">ROI Promedio: 4.8x</p>
+</div>
+</div>
+<!-- Conversion Bar Graphic Simulated -->
+<div class="space-y-2">
+<div class="flex justify-between text-xs text-on-surface-variant font-medium">
+<span>Adquisición Orgánica (SEO Local CR)</span>
+<span>78%</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-gradient-to-r from-secondary to-secondary-container h-full rounded-full w-[78%]"></div>
+</div>
+<div class="flex justify-between text-xs text-on-surface-variant font-medium pt-1">
+<span>Pauta de Performance (Google &amp; Meta)</span>
+<span>92%</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full w-[92%]"></div>
+</div>
+</div>
+<!-- Quick Lead Card Floating Inside -->
+<div class="p-3.5 rounded-xl bg-surface-container-low border border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-secondary-container/20 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-lg" data-icon="notifications_active">notifications_active</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">Nuevo Lead Cualificado</p>
+<p class="text-[11px] text-outline">Empresa Inmobiliaria Curridabat</p>
+</div>
+</div>
+<span class="text-xs font-mono font-semibold text-secondary">Hace 2m</span>
+</div>
+<!-- Live Visitor Counter Badge -->
+<div class="flex items-center justify-between pt-2 text-xs text-outline">
+<span class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  1,420 Sesiones activas monitoreadas
+                </span>
+<span class="font-semibold text-on-surface">San José, Costa Rica</span>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Element -->
+<div class="absolute -bottom-5 -left-5 bg-surface-container-lowest p-3.5 rounded-xl shadow-lg border border-outline-variant/30 flex items-center gap-3 hidden sm:flex">
+<div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold">
+<span class="material-symbols-outlined" data-icon="check_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">Campañas Certificadas</p>
+<p class="text-[11px] text-outline">Google Premier Partner CR</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Marcas y Empresas que Confían en Nosotros -->
+<section class="py-12 bg-surface-container-lowest border-y border-outline-variant/20">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<p class="text-center text-label-sm font-label-sm uppercase tracking-widest text-outline mb-8">
+        Empresas y marcas que impulsan sus ventas con Dame Clic
+      </p>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center justify-items-center opacity-80">
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="apartment">apartment</span>
+<span>Grupo CR</span>
+</div>
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="directions_car">directions_car</span>
+<span>Purdy Tech</span>
+</div>
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="credit_card">credit_card</span>
+<span>BAC Partner</span>
+</div>
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="coffee">coffee</span>
+<span>Café Britt</span>
+</div>
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="shopping_basket">shopping_basket</span>
+<span>AutoMercado</span>
+</div>
+<div class="flex items-center gap-2 p-3 font-display font-bold text-headline-sm text-on-surface-variant hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-secondary" data-icon="home_work">home_work</span>
+<span>Del Este Inm.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Detailed Services Section -->
+<section class="py-20 lg:py-28 bg-background" id="servicios">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/15 text-secondary text-label-sm font-label-sm mb-3">
+          CATÁLOGO DE SERVICIOS
+        </div>
+<h2 class="text-headline-lg font-headline-lg text-on-surface tracking-tight">
+          Soluciones Digitales que Transforman Marcas
+        </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mt-3">
+          Estrategias 360° diseñadas para convertir visitas en ventas reales con tecnología de vanguardia y ejecución rigurosa.
+        </p>
+</div>
+<!-- 6 Service Cards Grid (Bento Grid Style) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service 1: Tienda en Línea -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-container/5 rounded-bl-full pointer-events-none group-hover:bg-secondary-container/15 transition-all"></div>
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="shopping_bag">shopping_bag</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Tienda en línea</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">E-commerce</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Desarrollamos tiendas virtuales en Shopify y WooCommerce conectadas con pasarelas de pago costarricenses como SINPE Móvil, tarjetas de crédito y envíos integrados.
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Integración SINPE Móvil automatizado
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Checkout ultra-rápido en un solo paso
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Gestión de inventario y facturación electrónica
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Cotizar tienda en línea <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Service 2: Marketing Digital -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="campaign">campaign</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Marketing Digital</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">Performance</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Campañas de alto retorno en Google Ads, Meta Ads (Facebook &amp; Instagram) y TikTok. Diseñadas para maximizar el ROI y reducir su costo por adquisición (CPA).
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Segmentación quirúrgica B2B y B2C
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Estrategias de Inbound y Growth Hacking
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Creativos de alto engagement optimizados
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Empezar campaña <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Service 3: Páginas Web -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="code">code</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Páginas Web</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">Desarrollo</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Sitios web corporativos modernos, ultrarrápidos y 100% responsivos. Desarrollados con código limpio, arquitectura moderna y optimización técnica para Google.
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Puntuación 95+ en Google PageSpeed
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Optimización completa para dispositivos móviles
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Estructura de landing pages enfocada en leads
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Ver desarrollo web <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Service 4: Analítica Web -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="query_stats">query_stats</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Analítica Web</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">Datos &amp; BI</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Implementación avanzada de Google Analytics 4 (GA4), Google Tag Manager y tableros interactivos en Looker Studio para tomar decisiones basadas en números reales.
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Medición precisa de conversiones y eventos
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Auditorías técnicas de embudo de ventas
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Informes visuales mensuales transparentes
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Auditar mis datos <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Service 5: Diseño Gráfico & Branding -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="brush">brush</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Diseño Gráfico</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">Branding</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Construimos identidades corporativas de alto prestigio. Desde el rediseño de marca hasta material publicitario para redes sociales y prototipado UI/UX en Figma.
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Manual de identidad corporativa y guías de marca
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Diseño de interfaz de usuario de nivel internacional
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Material gráfico para campañas multicanal
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Renovar marca <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Service 6: Dominio SSL y Hospedaje -->
+<div class="glass-card rounded-2xl p-8 hover:-translate-y-1.5 transition-all duration-300 relative group flex flex-col justify-between hover:border-secondary-container/60 hover:shadow-xl">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-container flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-3xl" data-icon="security">security</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Dominio SSL &amp; Cloud</h3>
+<span class="text-xs bg-secondary-container/15 text-secondary font-bold px-2 py-0.5 rounded">Infraestructura</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-6">
+              Alojamiento cloud de alto rendimiento con servidores optimizados para Costa Rica, certificados SSL automáticos, copias de seguridad diarias y soporte técnico 24/7.
+            </p>
+<ul class="space-y-2.5 text-body-sm text-on-surface mb-6">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                99.98% Garantía de disponibilidad (Uptime)
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Protección DDoS y cortafuegos activo
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="check">check</span>
+                Correos corporativos con filtros anti-spam
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-1.5 text-secondary font-label-md hover:gap-2.5 transition-all font-bold" href="#contacto">
+            Ver planes de hosting <span class="material-symbols-outlined text-base" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Por Qué Elegir Dame Clic (Value Pillars) -->
+<section class="py-20 bg-surface-container-low border-y border-outline-variant/30" id="nosotros">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary-container/10 border border-secondary-container/30 text-secondary text-label-sm font-label-sm mb-4">
+            DIFERENCIADORES CLAVE
+          </div>
+<h2 class="text-headline-lg font-headline-lg text-on-surface tracking-tight leading-tight">
+            ¿Por qué las marcas líderes en Costa Rica eligen a Dame Clic?
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mt-4">
+            No somos una agencia convencional de publicaciones en redes sociales; somos un socio estratégico de crecimiento enfocado exclusivamente en métricas de negocio tangibles.
+          </p>
+<div class="mt-8 space-y-4">
+<div class="flex items-start gap-4 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-container bg-primary-container p-2 rounded-lg text-2xl" data-icon="verified">verified</span>
+<div>
+<h3 class="font-bold text-on-surface text-body-md">Soporte Local Inmediato</h3>
+<p class="text-body-sm text-outline">Ubicados en Curridabat, San José. Reuniones presenciales o virtuales con respuesta en menos de 2 horas.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-container bg-primary-container p-2 rounded-lg text-2xl" data-icon="bar_chart">bar_chart</span>
+<div>
+<h3 class="font-bold text-on-surface text-body-md">Obsesión con el Retorno (ROI)</h3>
+<p class="text-body-sm text-outline">Cada colón invertido se mide contra ventas reales generadas, no solo clics vacíos ni likes cosméticos.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="glass-card p-6 rounded-2xl border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-3" data-icon="psychology">psychology</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Estrategias Basadas en Datos</h3>
+<p class="text-body-sm text-on-surface-variant">
+                Implementamos modelos analíticos predictivos para identificar exactamente qué canales y mensajes generan compradores calificados.
+              </p>
+</div>
+<div class="glass-card p-6 rounded-2xl border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-3" data-icon="speed">speed</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Metodología Ágil y Sprint</h3>
+<p class="text-body-sm text-on-surface-variant">
+                Lanzamientos rápidos y optimización iterativa semanal. Sin demoras burocráticas: ejecutamos a velocidad de escala.
+              </p>
+</div>
+<div class="glass-card p-6 rounded-2xl border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-3" data-icon="hub">hub</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Ecosistema 360° Conectado</h3>
+<p class="text-body-sm text-on-surface-variant">
+                Desarrollo web, pauta publicitaria, SEO y CRM sincronizados para que ningún cliente potencial se pierda en el trayecto.
+              </p>
+</div>
+<div class="glass-card p-6 rounded-2xl border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-3" data-icon="handshake">handshake</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Transparencia Total</h3>
+<p class="text-body-sm text-on-surface-variant">
+                Acceso directo a sus cuentas publicitarias y dashboards en tiempo real. Usted siempre es el dueño absoluto de sus activos digitales.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase / Portafolio Section -->
+<section class="py-20 lg:py-28 bg-surface-container-lowest" id="portafolio">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="text-label-sm font-label-sm uppercase tracking-widest text-secondary font-bold">CASOS DE ÉXITO</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-1">Impacto Real en Negocios de Costa Rica</h2>
+</div>
+<p class="text-body-md text-outline max-w-md mt-2 md:mt-0">
+          Resultados medibles y verificables que demuestran nuestra capacidad de escalabilidad digital.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Project 1 -->
+<div class="group rounded-2xl border border-outline-variant/30 overflow-hidden bg-background hover:shadow-xl transition-all">
+<div class="h-56 bg-surface-container overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A modern e-commerce dashboard interface displayed on a sleek tablet screen showing rapid sales spikes and conversion analytics in high-contrast deep midnight blue and electric cyan accents. Bright clean modern light aesthetic representing Costa Rican commerce." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAAaHvVgT6vHRcl2NfDdWDp8uoAMoCx5sXPyfh10jt8nvRkwVfo2V8oVtOqKcaSIN_MxRXrDZZ15lDLB6WEofb-J8tJeS4QymeRSHR4ogEvWt6ulZhI2JqjxfRcLb61xyd60_IWHTOm5N7yMjftLYslqj-NI_STjCr9VtB9Njg_yxXRZxXKNT7aAqYfHFZdPjPsYIo9WPI90OGjKccvqaLkifH7R1dxMepfSPHow7YDLhBXyVjItd_sty8507FETqx2Ru_FL8-cOCT"/>
+<div class="absolute top-4 right-4 bg-primary-container text-surface-bright text-xs font-bold px-3 py-1 rounded-full border border-secondary-container/40">
+              +310% Ventas
+            </div>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary uppercase">E-Commerce &amp; Retail CR</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-1 mb-2">Tienda de Moda &amp; Calzado</h3>
+<p class="text-body-sm text-on-surface-variant mb-4">Migración a Shopify Plus, integración SINPE Móvil con confirmación automática y pauta en Meta Ads.</p>
+<div class="flex items-center justify-between text-xs text-outline pt-3 border-t border-outline-variant/20">
+<span>Duración: 6 meses</span>
+<span class="font-bold text-primary-container">ROAS: 6.2x</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group rounded-2xl border border-outline-variant/30 overflow-hidden bg-background hover:shadow-xl transition-all">
+<div class="h-56 bg-surface-container overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Clean architectural presentation of a luxury real estate digital web application with property search filters and fast lead generation forms. Designed with pristine white surfaces, deep corporate blue panels and bright cyan accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO5bt91OwET-aFxDsqj6q-FCxl5QOGStVEWl2i9_Q61CPvIVyZSNZtVK75ilW9t_k9Ag2xmKcw0rWppstc_18fZbJ3ctXFjk47ziRn9p7cF3-5YFXmXxev3kWDS6vDxzdNl1IQ3ekNw6LJkYY7FmJSxt9kK-LMJYl_NnGZ9O7kXm-MpyjxwrmL21EH8vDcxmLGSSESUVbU_5S6moIUEhG94_0hyk6dfqQt2pXt_82GvgG4LQ1bfvULhEbhecmu8ZbHtpysM5GOQBE7"/>
+<div class="absolute top-4 right-4 bg-primary-container text-surface-bright text-xs font-bold px-3 py-1 rounded-full border border-secondary-container/40">
+              +1,400 Leads
+            </div>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary uppercase">Desarrollo Web &amp; Performance</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-1 mb-2">Desarrolladora Inmobiliaria del Este</h3>
+<p class="text-body-sm text-on-surface-variant mb-4">Sitio web ultra rápido enfocado en captación de compradores para condominios en Curridabat y Escazú.</p>
+<div class="flex items-center justify-between text-xs text-outline pt-3 border-t border-outline-variant/20">
+<span>Costo por Lead: -45%</span>
+<span class="font-bold text-primary-container">Tasa Cierre: 18%</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group rounded-2xl border border-outline-variant/30 overflow-hidden bg-background hover:shadow-xl transition-all">
+<div class="h-56 bg-surface-container overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Close up of a financial services data visualization monitor illustrating medical clinic patient appointment bookings climbing steadily. Clean light palette with modern midnight blue typography and glowing cyan trendline graphs." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkCa-d7ggnaZLs5RtxysXc4eLDlweICqs3wj8jLjO_ewiDBaXPjs2JCe7pOH5qIJG2t4qh7p26hVpVRmkp-Jd-hqI7Odqb0BQrQBMhDoVXMb6_95d4yg7pJdHNYjOo8dx5k04GRJ-AV9Af9XFlBrluX9wKxIGMi7-xwYnDXoLarbfx2aB7sJoLrWqi3fVjxyqccfBQyiUIg08okkGuC1A8OvU4MVSi3ymYedYufZ3x5IGesVx-wsjcy0TAAivHcWsxKHdKQ81bsRC7"/>
+<div class="absolute top-4 right-4 bg-primary-container text-surface-bright text-xs font-bold px-3 py-1 rounded-full border border-secondary-container/40">
+              #1 En Google CR
+            </div>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary uppercase">SEO Local &amp; Google Ads</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-1 mb-2">Red Médica Especializada</h3>
+<p class="text-body-sm text-on-surface-variant mb-4">Posicionamiento orgánico número 1 en Costa Rica para más de 45 términos clave de alta intención médica.</p>
+<div class="flex items-center justify-between text-xs text-outline pt-3 border-t border-outline-variant/20">
+<span>Citas mensuales: +280</span>
+<span class="font-bold text-primary-container">Tráfico: +420%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Equipo Directivo Section -->
+<section class="py-20 bg-background border-t border-outline-variant/20">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-label-sm font-label-sm uppercase tracking-widest text-secondary font-bold">NUESTRO TALENTO</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-1">Liderazgo y Maestría Digital</h2>
+<p class="text-body-md text-on-surface-variant mt-3">
+          Especialistas certificados con pasión por transformar retos comerciales en victorias sostenibles.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Member 1 -->
+<div class="glass-card rounded-2xl p-6 text-center border border-outline-variant/30 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-secondary-container/40 p-1">
+<img class="w-full h-full object-cover rounded-full" data-alt="Professional female executive portrait with confident smile in an architectural modern office setting, wearing contemporary corporate attire in neutral charcoal and blue tones with soft directional light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkAlXo2J8YLTsoGoCHA2wMRAd2zju32B_kRmVlH_WDnc5TVTsboxfsB5kgFtcuzv5VCiCeNlQ_d0-SCnQz5FNDlAqWNAmFbozUwfgf96V-zguixplDKgvfRrzGr7BMaLyRXr0P4dnCO3zIhYpuN1Wd3TzrvD2BsxkDrifIqjuyGBITBUbB9LaZtDcC-2KkZE1MP0_UKUWb6P-VZ3UmyEh_lIU54VsbF8RYqyqpHSinOVG7uqW8dfc-KNcCgBqRZGAfS3CUCddEejRg"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mariana Solano</h3>
+<p class="text-xs font-semibold text-secondary mt-0.5">Directora General &amp; Estrategia</p>
+<p class="text-xs text-on-surface-variant mt-3 leading-relaxed">
+            14 años diseñando hojas de ruta de transformación digital para marcas en Costa Rica y Centroamérica.
+          </p>
+<div class="mt-4 flex flex-wrap gap-1.5 justify-center">
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Estrategia 360°</span>
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Liderazgo</span>
+</div>
+</div>
+<!-- Member 2 -->
+<div class="glass-card rounded-2xl p-6 text-center border border-outline-variant/30 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-secondary-container/40 p-1">
+<img class="w-full h-full object-cover rounded-full" data-alt="Portrait of a technology director in his late thirties with glasses in a minimalist tech agency studio with natural window lighting and pristine clean modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCZSvxFe232TUXsdH8RCtxU_uwOqdyfUpxJ1Dr_9sQAmWGiQ6vHjQYk9-aAOSDimnn67WxI3uQPsP5QPyBg7hJQwy6CIpczukmgajZmvCmmCnp3Q8STRgZjuI3Gj_p9c1fms-ZPNsTwsm1iILmmUvoUrVT6ejG9LSNv3iLhCnycXWv1QFUKxz15d4VxRgcdJRvm-fovuo8CPXMUNeIxHD9ApiFLyY098FFg7sMuW6_0NKc0570gICxKPdNh9IpSkfzbItFgnHHmqZp"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Carlos Brenes</h3>
+<p class="text-xs font-semibold text-secondary mt-0.5">Director de Tecnología &amp; Web</p>
+<p class="text-xs text-on-surface-variant mt-3 leading-relaxed">
+            Especialista en arquitecturas web headless, performance extremo e integraciones pasarelas bancarias locales.
+          </p>
+<div class="mt-4 flex flex-wrap gap-1.5 justify-center">
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Full-Stack</span>
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Cloud AWS</span>
+</div>
+</div>
+<!-- Member 3 -->
+<div class="glass-card rounded-2xl p-6 text-center border border-outline-variant/30 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-secondary-container/40 p-1">
+<img class="w-full h-full object-cover rounded-full" data-alt="Portrait of a male digital marketing media buyer and data scientist smiling in a modern bright corporate setting with subtle blue ambient accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb6is2t98h8IIyq48IimIvqMLTCeTFQPMPT5pj4qIeqYwY_pWlJe8CA3vCGzUdG7zj4YCZHnJxto71bH7ftL4VYDMQAmTY0sx60EvN9DZtKP7sxXHPGpVUk0_EH03FXENH5-EkmHJRXjAAAJ6aPekyrJ7hQXuML3JPN_O3mOVxcv2UX5eQh0_Dceq2PH_uZIU5y5h52Ujttul4xnR5bDSLI6i9e9p4ly71DSsbuREyr2laGaf8b1iKjL35CJ9F5PJfA7bdROguZnZh"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Esteban Montero</h3>
+<p class="text-xs font-semibold text-secondary mt-0.5">Lead Performance &amp; Pauta</p>
+<p class="text-xs text-on-surface-variant mt-3 leading-relaxed">
+            Certificado Google Premier y Meta Media Buyer con más de $3M gestionados en presupuestos publicitarios.
+          </p>
+<div class="mt-4 flex flex-wrap gap-1.5 justify-center">
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Google Ads</span>
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Meta Ads</span>
+</div>
+</div>
+<!-- Member 4 -->
+<div class="glass-card rounded-2xl p-6 text-center border border-outline-variant/30 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-secondary-container/40 p-1">
+<img class="w-full h-full object-cover rounded-full" data-alt="Portrait of an experienced female UI/UX designer and creative director in a stylish creative workplace with sketchpads and Apple monitors in a modern light-toned aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGl6LbsuQahnvbpBK_jCxjWqKY6O_PJUlBIjhO5eKLVvspKMrezWbBIOA1b5UDez6ifzDCdEQ-YGpAl5XM7ScAvY_r4QrTAAWhbxauniqmRyyW8e3ocQgW4PduTHhVcLG8-4lQX1Ut_5-0rG1r53WDYqwBNHo-OYhn-fobWbSwJSY14wMCXQgoXhFz6-KIohnaog3_Bq_KxkSvdMmjtGnkvbpwNiK1QmtOoHo29k6Hn7H48LgmH0JlbPsa00sJxOCQcZxu07TkKbcc"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Valeria Navarro</h3>
+<p class="text-xs font-semibold text-secondary mt-0.5">Directora Creativa &amp; UI/UX</p>
+<p class="text-xs text-on-surface-variant mt-3 leading-relaxed">
+            Diseñadora enfocada en experiencia de usuario y diseño con propósito para elevar la percepción y ventas de cada marca.
+          </p>
+<div class="mt-4 flex flex-wrap gap-1.5 justify-center">
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Branding</span>
+<span class="px-2 py-0.5 text-[11px] rounded bg-surface-container text-on-surface-variant">Figma Pro</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog & Recursos Section -->
+<section class="py-20 lg:py-24 bg-surface-container-low border-t border-outline-variant/20" id="blog">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="text-label-sm font-label-sm uppercase tracking-widest text-secondary font-bold">RECURSOS &amp; ESTRATEGIAS</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-1">Artículos Recientes de Nuestro Blog</h2>
+</div>
+<a class="inline-flex items-center gap-2 text-secondary font-bold hover:underline mt-2 md:mt-0 text-body-sm" href="#blog">
+<span>Ver todos los artículos</span>
+<span class="material-symbols-outlined text-base" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/30 overflow-hidden flex flex-col justify-between hover:shadow-lg transition-shadow">
+<div>
+<div class="h-48 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" data-alt="High tech e-commerce payment illustration showing Costa Rican mobile payment integration with digital security badges in crisp minimal white and deep navy tone styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfJ_4r7FEa3TOtxO9iB-XUrXvGPmvg7kLJF5D6TiKA2BXDer-OPsMAkMRhcYdE96QNweeUYa0xymZmUAkrvZ3gollOm61LbHPa_OFMx6kgSSWwYmmKtQVzcUplTBJ6yfVnco46ZCkoQr6bUIjgXhfFtgeFhHm9PRmEhvjHmQy-ixC8ry2WF9y08xl6-fC0PklLSsz50yKaKcnoSGmSFczatVPMG7I5PoUNBxp2P-irNy5dDoQpQjTUl5QWVYBHCKzqFxhHyRJRxTth"/>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary px-2.5 py-1 rounded bg-secondary-container/10">E-COMMERCE EN COSTA RICA 2024</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-3 mb-2 leading-snug">
+                Cómo Integrar SINPE Móvil y Pasarelas de Pago para Duplicar las Ventas
+              </h3>
+<p class="text-body-sm text-on-surface-variant">
+                Guía paso a paso sobre reducción de fricción en carritos de compra y validación automática de transferencias bancarias en tiendas online.
+              </p>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center justify-between text-xs text-outline border-t border-outline-variant/10">
+<span class="font-medium text-on-surface">Por Carlos Brenes</span>
+<span>Lectura: 5 min</span>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/30 overflow-hidden flex flex-col justify-between hover:shadow-lg transition-shadow">
+<div>
+<div class="h-48 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" data-alt="Search engine optimization visual metaphor showing local map pins of San José Costa Rica surrounded by digital analytics graphs and rankings in clean corporate tech styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuL7tL-Cu5pi7qlT8OmBc3jzevDyZjIlzNvB9zX61jZ8VEksFgmjD-4-9qyFocNoZpNMu1yCUVmJuJMc-GwpHcRt7xn_ntqUFTJaKEm3iigIknz5Ov-pEFcUnygbVmNF4FwGpn46t8U836C6AdW4x22HXbx6FIX1YiYWdqTlf4X9hxcmq_M-RQmVNlmD2elmS1_Dyn9AJqc51DoJ5Pc6DW4JkPlal_PNoKoCoA-mMb07qbVGU7YeP1iV-P48FxBSQBKCUsRODKtgf1"/>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary px-2.5 py-1 rounded bg-secondary-container/10">SEO LOCAL &amp; GOOGLE MAPS</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-3 mb-2 leading-snug">
+                Estrategias de Posicionamiento Orgánico para Dominar Búsquedas en San José
+              </h3>
+<p class="text-body-sm text-on-surface-variant">
+                Las tácticas de optimización de perfil comercial en Google y señales locales que generan clientes con alta intención de compra.
+              </p>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center justify-between text-xs text-outline border-t border-outline-variant/10">
+<span class="font-medium text-on-surface">Por Mariana Solano</span>
+<span>Lectura: 7 min</span>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/30 overflow-hidden flex flex-col justify-between hover:shadow-lg transition-shadow">
+<div>
+<div class="h-48 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" data-alt="Digital ad performance dashboard showing ROAS metrics and conversion optimization levers with modern typography and sleek cyan glow charts in light UI environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd1NIioMJK0t3loXOyzb0YzzfpNgNUSlooGlCrG0BC2lWCS2SenCQw40lk77w8vzGAFB3mTQ0E1hmJdLEMqMFmPu0Mcohe43b_dHelmzT21fcU_wDC-_4UTiIryf3rAtki-SHykyuwAsw3IxLn2rVt0AFPZzvgpwfeRzw7qEYnD9FO4ybT79qpKMcp0pbEKZDWsln9IutiEip1Zen0jxvckpN0nRneOspEIyRQaLENNk96WQCegY__FBm1JZAmEDMNSRi30D2qWrj1"/>
+</div>
+<div class="p-6">
+<span class="text-xs font-bold text-secondary px-2.5 py-1 rounded bg-secondary-container/10">GOOGLE &amp; META ADS</span>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mt-3 mb-2 leading-snug">
+                Cómo Duplicar el Retorno de Inversión (ROI) sin Aumentar el Presupuesto
+              </h3>
+<p class="text-body-sm text-on-surface-variant">
+                Los errores más comunes al segmentar audiencias y cómo la configuración de conversiones mejoradas rescata atribución perdida.
+              </p>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center justify-between text-xs text-outline border-t border-outline-variant/10">
+<span class="font-medium text-on-surface">Por Esteban Montero</span>
+<span>Lectura: 6 min</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Interactive Contact & Project Estimation Section -->
+<section class="py-20 lg:py-28 bg-surface-container-lowest relative" id="contacto">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Side: Form -->
+<div class="lg:col-span-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/15 text-secondary text-label-sm font-label-sm mb-3">
+            COTIZACIÓN DIRECTA &amp; CONFIDENCIAL
+          </div>
+<h2 class="text-headline-lg font-headline-lg text-on-surface tracking-tight">
+            Iniciemos su próximo gran proyecto digital
+          </h2>
+<p class="text-body-md text-on-surface-variant mt-2 mb-8">
+            Complete el siguiente formulario. Uno de nuestros directores de estrategia analizará su caso y le entregará una cotización y propuesta preliminar en menos de 24 horas hábiles.
+          </p>
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('¡Gracias! Su solicitud ha sido enviada exitosamente. Un director de estrategia de Dame Clic le contactará en breve.');">
+<!-- Service Selector Chips / Checkboxes -->
+<div>
+<label class="block text-body-sm font-semibold text-on-surface mb-3">
+                ¿Qué servicios requiere su empresa? (Seleccione uno o más)
+              </label>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input checked="" class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Tienda en línea</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input checked="" class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Marketing Digital</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Páginas Web</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Analítica Web GA4</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Diseño &amp; Branding</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-xl border border-outline-variant/50 hover:border-secondary transition-colors cursor-pointer bg-background">
+<input class="rounded border-outline text-secondary focus:ring-secondary-container" type="checkbox"/>
+<span class="text-xs font-semibold text-on-surface">Hosting &amp; SSL Cloud</span>
+</label>
+</div>
+</div>
+<!-- User Information Inputs Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Nombre Completo *</label>
+<input class="w-full h-11 rounded-lg border border-outline-variant/70 px-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20" placeholder="Ej: Roberto Calderón" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Correo Corporativo *</label>
+<input class="w-full h-11 rounded-lg border border-outline-variant/70 px-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20" placeholder="ejemplo@suempresa.cr" required="" type="email"/>
+</div>
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Teléfono / WhatsApp *</label>
+<input class="w-full h-11 rounded-lg border border-outline-variant/70 px-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20" placeholder="+506 8888-8888" required="" type="tel"/>
+</div>
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Empresa o Sitio Web Actual</label>
+<input class="w-full h-11 rounded-lg border border-outline-variant/70 px-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20" placeholder="www.suempresa.com" type="text"/>
+</div>
+</div>
+<!-- Budget Range Selector -->
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Presupuesto mensual estimado de inversión</label>
+<select class="w-full h-11 rounded-lg border border-outline-variant/70 px-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20 bg-surface-container-lowest">
+<option value="tier1">$500 - $1,500 USD (Pequeñas empresas &amp; Lanzamientos)</option>
+<option selected="" value="tier2">$1,500 - $3,500 USD (Crecimiento &amp; Escalamiento)</option>
+<option value="tier3">$3,500 - $8,000 USD (Liderazgo sectorial)</option>
+<option value="tier4">Más de $8,000 USD (Corporativo &amp; Expansión Regional)</option>
+</select>
+</div>
+<!-- Message Area -->
+<div>
+<label class="block text-xs font-semibold text-on-surface mb-1.5">Cuéntenos sobre sus objetivos o requerimientos principales</label>
+<textarea class="w-full rounded-lg border border-outline-variant/70 p-3.5 text-body-sm focus:border-secondary focus:ring-2 focus:ring-secondary-container/20" placeholder="Describa brevemente su proyecto o el principal cuello de botella que desea resolver..." rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-secondary-container to-secondary text-primary-container font-headline-sm text-body-md font-bold shadow-lg cyan-glow hover:brightness-105 transition-all flex items-center justify-center gap-2" type="submit">
+<span>Enviar Solicitud de Cotización</span>
+<span class="material-symbols-outlined text-xl" data-icon="send">send</span>
+</button>
+<p class="text-[11px] text-outline">Sus datos están protegidos bajo estricto acuerdo de confidencialidad.</p>
+</form>
+</div>
+<!-- Right Side: Direct Contact Details & Location Card -->
+<div class="lg:col-span-4 space-y-6">
+<div class="glass-card rounded-2xl p-6 border border-outline-variant/40 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Atención Inmediata</h3>
+<div class="space-y-4">
+<a class="flex items-center gap-3 p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 hover:bg-emerald-100 transition-colors" href="https://wa.me/50622018282" target="_blank">
+<span class="material-symbols-outlined text-2xl text-emerald-600" data-icon="chat">chat</span>
+<div>
+<p class="text-xs font-bold">WhatsApp Directo</p>
+<p class="text-sm font-semibold">+506 2201-8282</p>
+</div>
+</a>
+<div class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low border border-outline-variant/30">
+<span class="material-symbols-outlined text-2xl text-secondary" data-icon="mail">mail</span>
+<div>
+<p class="text-xs font-bold text-on-surface">Correo Electrónico</p>
+<p class="text-sm text-on-surface-variant">info@dameclic.com</p>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low border border-outline-variant/30">
+<span class="material-symbols-outlined text-2xl text-secondary" data-icon="schedule">schedule</span>
+<div>
+<p class="text-xs font-bold text-on-surface">Horario de Operaciones</p>
+<p class="text-sm text-on-surface-variant">Lunes a Viernes 8:00 AM - 6:00 PM</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Physical Office Card with Map Reference -->
+<div class="glass-card rounded-2xl p-6 border border-outline-variant/40 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Visítenos en San José</h3>
+<p class="text-body-sm text-on-surface-variant mb-4 flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary shrink-0 text-xl" data-icon="location_on">location_on</span>
+              Plaza Trigueros, Local 4, Pinares, Curridabat, San José, Costa Rica.
+            </p>
+<div class="w-full h-36 rounded-xl overflow-hidden border border-outline-variant/30 relative">
+<img class="w-full h-full object-cover" data-alt="A refined architectural map view highlighting Pinares Curridabat San José Costa Rica with clean minimal map tiles in crisp light cool tones with an electric cyan pinpoint indicator for Dame Clic agency headquarters." data-location="San José, Costa Rica" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAisPw4EhdNrOlc5pTj6pXo8XDlxf8sCCDW33qCQt4GBpdY02_Y1sGlA5wCHwZTPYoGA8ZiSohKMidadiYyy2FZN3wRMr5YMnkZzVf5hae5SrzgkkuVL8_2wQr6W5D31PhDpPMFxAn1ZZ1G59oRStHYGjinq09hXcmPflHA-6lZI_NKDlb9RnQ36WF4c4ZohiaeGVQNxWiSOqD5dYFo5u6d7bL5vE1ATAVw7CbTDUoHwnZUjTynPbJ2xYDem-JySdU955pTQLpt8B2v"/>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 backdrop-blur px-2.5 py-1 rounded text-[11px] font-bold text-on-surface border border-outline-variant/20">
+                📍 Curridabat, San José
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer (From Shared Component JSON) -->
+<footer class="bg-primary-container dark:bg-tertiary-container text-surface-bright dark:text-inverse-on-surface full-width border-t border-outline/20 dark:border-outline-variant/10 flat no shadows">
+<div class="max-w-7xl mx-auto px-margin-tablet lg:px-margin-desktop py-space-xl flex flex-col gap-space-lg">
+<!-- Top Grid: Brand & Links -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+<!-- Brand Info Column -->
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container-lowest/10 flex items-center justify-center border border-secondary-container/40">
+<span class="material-symbols-outlined text-secondary-container text-2xl" data-icon="ads_click" data-weight="fill" style="font-variation-settings: 'FILL' 1;">ads_click</span>
+</div>
+<span class="text-headline-md font-headline-md font-bold text-surface-bright">Dame Clic</span>
+</div>
+<p class="text-body-sm font-body-sm text-outline-variant dark:text-outline max-w-sm">
+            Agencia líder de marketing digital, comercio electrónico y desarrollo web en Costa Rica. Transformamos tráfico en clientes fieles y ventas reales.
+          </p>
+<div class="flex items-center gap-3 pt-2 text-surface-bright">
+<a aria-label="LinkedIn" class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center hover:text-secondary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="share">share</span>
+</a>
+<a aria-label="Instagram" class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center hover:text-secondary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="photo_camera">photo_camera</span>
+</a>
+<a aria-label="Facebook" class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center hover:text-secondary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="public">public</span>
+</a>
+</div>
+</div>
+<!-- Column 1: Links (From JSON) -->
+<div>
+<h4 class="text-headline-sm font-headline-sm font-bold text-surface-bright mb-4 text-sm uppercase tracking-wider">Navegación</h4>
+<ul class="space-y-2.5 text-label-sm font-label-sm">
+<li><a class="text-secondary-fixed dark:text-secondary-fixed-dim font-bold hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#inicio">Inicio</a></li>
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#nosotros">Nosotros</a></li>
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#servicios">Servicios</a></li>
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#portafolio">Portafolio</a></li>
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#blog">Blog</a></li>
+</ul>
+</div>
+<!-- Column 2: Servicios Detallados -->
+<div>
+<h4 class="text-headline-sm font-headline-sm font-bold text-surface-bright mb-4 text-sm uppercase tracking-wider">Especialidades</h4>
+<ul class="space-y-2.5 text-label-sm font-label-sm text-outline-variant dark:text-outline">
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Tienda en línea</a></li>
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Marketing Digital</a></li>
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Páginas Web</a></li>
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Analítica Web GA4</a></li>
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Diseño Gráfico</a></li>
+<li><a class="hover:text-secondary-fixed-dim transition-colors" href="#servicios">Dominio SSL y Hospedaje</a></li>
+</ul>
+</div>
+<!-- Column 3: Legal & Contact -->
+<div>
+<h4 class="text-headline-sm font-headline-sm font-bold text-surface-bright mb-4 text-sm uppercase tracking-wider">Legal &amp; Ubicación</h4>
+<ul class="space-y-2.5 text-label-sm font-label-sm">
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Términos y Condiciones</a></li>
+<li><a class="text-outline-variant dark:text-outline hover:text-secondary-fixed-dim dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Política de Privacidad</a></li>
+</ul>
+<div class="mt-4 pt-4 border-t border-outline-variant/10 text-xs text-outline-variant space-y-1">
+<p class="font-medium text-surface-bright">Pinares, Curridabat</p>
+<p>San José, Costa Rica</p>
+<p class="text-secondary-container font-mono">+506 2201-8282</p>
+</div>
+</div>
+</div>
+<!-- Copyright Bar (Mandatory Exact String from JSON) -->
+<div class="pt-8 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4 text-body-sm font-body-sm text-outline-variant dark:text-outline">
+<p>© 2024 Dame Clic - Agencia de Marketing Digital en Costa Rica. Todos los derechos reservados. Pinares, Curridabat, San José.</p>
+<div class="flex items-center gap-4 text-xs">
+<span>Diseño con tecnología limpia &amp; ultra-rápida</span>
+<span class="inline-block w-2 h-2 rounded-full bg-secondary-container"></span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
